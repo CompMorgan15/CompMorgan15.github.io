@@ -3,12 +3,12 @@ background: burlywood;
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: black;
+color: black; /*I used chatgpt to help make my pictures look neat, fit correctly and have a nice color on the webpage(I once again didn't like how terrible it looked)*/
 text-align: center;
 }
 .projects { 
-    display:flex; 
-    flex-wrap:wrap; 
+    display:block; 
+    flex-wrap:center; 
 }
 .project {
   width: 30%;
