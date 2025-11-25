@@ -10,6 +10,11 @@ text-align: center;
     display:block; 
     flex-wrap:center; 
 }
+.projects h2 {
+  width: 100%; 
+  text-align: center;
+  margin-bottom: 10px;
+}
 .project {
   width: 30%;
   margin: 10px;
