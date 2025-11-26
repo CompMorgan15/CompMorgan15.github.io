@@ -52,8 +52,3 @@ h1 {
   color: black;
   font-size: 0.95rem;
 }
-.zoom-out {
-  object-fit: contain;
-  width: 400px;
-  height: 300px;
-}
