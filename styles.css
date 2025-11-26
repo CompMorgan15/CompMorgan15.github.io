@@ -11,43 +11,50 @@ body {
   padding: 0;
 }
 h1 {
-  color: black;
+  color: black; 
   text-align: center;
 }
-.projects {
+.projects { 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
+}
+.projects h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .project {
   width: 30%;
-  max-width: 360px;
-  min-width: 240px;
-  padding: 18px;
+  margin: 10px;
+  padding: 20px 10px;
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  border-radius: 20px; 
+  box-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
 .project h3 {
-  margin: 0;
-  font-size: 1.05rem;
+  margin-left: 40px;
+  font-size: 1.1rem;
+  color: black;
 }
 .project img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+  width: 100%;             
+  height: 250px;           
+  object-fit: cover;       
+  margin: 10px auto;
   border: 2px solid rgb(1, 0, 1);
   border-radius: 8px;
   display: block;
+  text-align: center;
 }
 .project img.problem-img {
   height: auto;
   object-fit: contain;
   max-height: 300px;
+}
+.project p {
+  text-align: center;
+  margin: 15px;
+  color: black;
+  font-size: 0.95rem;
 }
