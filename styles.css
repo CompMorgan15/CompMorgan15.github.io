@@ -1,51 +1,36 @@
 /* I used ChatGPT to help make my pictures look neat, fit correctly, and have a nice color on the webpage. */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-body {
-  background: burlywood;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  color: black; 
-  text-align: center;
-}
-.projects { 
+.projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
-.projects h2 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
+  justify-content: flex-start;
+  gap: 20px; 
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .project {
-  width: 22%;    
-  margin: 10px;
-  padding: 20px 10px;
+  flex: 0 0 calc(25% - 15px);
+  box-sizing: border-box;
   background: white;
-  border-radius: 20px;
+  padding: 18px;
+  border-radius: 18px;
   box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .project h3 {
-  margin-left: 40px;
-  font-size: 1.1rem;
+  margin: 0 0 6px 12px;
+  font-size: 1.05rem;
   color: black;
 }
 .project img {
   width: 100%;
-  height: 200px;    
-  object-fit: cover;  
-  margin: 10px auto;
+  height: 160px;           
+  object-fit: cover;        
   border: 2px solid rgb(1, 0, 1);
   border-radius: 8px;
   display: block;
-  text-align: center;
 }
 .project img.problem-img {
   height: auto;
@@ -54,7 +39,7 @@ h1 {
 }
 .project p {
   text-align: center;
-  margin: 15px;
+  margin: 0;
   color: black;
   font-size: 0.95rem;
 }
