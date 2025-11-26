@@ -4,7 +4,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 body {
   background: burlywood;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,24 +11,20 @@ body {
   padding: 20px;
   color: #000;
 }
-
 h1 {
   color: darkslategrey;
   text-align: center;
   margin-bottom: 16px;
 }
-
 .section-title {
   text-align: center;
   margin: 18px 0;
 }
-
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-
 .project {
   width: 30%;
   margin: 10px;
@@ -38,13 +33,11 @@ h1 {
   border-radius: 25%;
   box-sizing: border-box;
 }
-
 .project h3 {
   margin-left: 50px;
   font-size: 1.1rem;
   color: black;
 }
-
 .project img {
   width: 400px;
   height: 300px;
@@ -53,7 +46,6 @@ h1 {
   display: block;
   object-fit: cover;
 }
-
 .project p {
   text-align: center;
   margin: 15px;
