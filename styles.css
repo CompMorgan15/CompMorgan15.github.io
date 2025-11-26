@@ -25,11 +25,11 @@ h1 {
   margin-bottom: 10px;
 }
 .project {
-  width: 22%;
+  width: 22%;    
   margin: 10px;
   padding: 20px 10px;
   background: white;
-  border-radius: 20px; 
+  border-radius: 20px;
   box-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
 .project h3 {
