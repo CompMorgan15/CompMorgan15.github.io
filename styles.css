@@ -1,46 +1,61 @@
+/* I used ChatGPT to help make my pictures look neat, fit correctly, and have a nice color on the webpage. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-background: burlywood;
-font-family: Arial, Helvetica, sans-serif;
+  background: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 h1 {
-color: black; /*I used chatgpt to help make my pictures look neat, fit correctly and have a nice color on the webpage(I once again didn't like how terrible it looked)*/
-text-align: center;
-}
-.projects { 
-    display:flex; 
-    flex-wrap:wrap; 
-    justify-content: center;
-}
-.projects h2 {
-  flex: 0 0 100%;
-  width: 100%;
+  color: black;
   text-align: center;
-  margin-bottom: 10px;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
 .project {
   width: 30%;
-  margin: 10px;
-  padding: 20px 10px;
-  background: white; /* pick a color */
-  border-radius: 25%;
+  max-width: 360px;
+  min-width: 240px;
+  padding: 18px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
+
+.project h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
 .project img {
   width: 100%;
-  height: 300px;
+  height: 180px;
   object-fit: cover;
-  margin: 10px;
-  border: 2px solid rgb(1, 0, 1); /* choose a color */
-  border-radius: 8px;
-  display: block;
-  margin: 10px auto;
-}
-.project img.problem-img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  max-height: 300px;
   border: 2px solid rgb(1, 0, 1);
   border-radius: 8px;
   display: block;
-  margin: 10px auto;
+}
+
+.project img.problem-img {
+  height: auto;
+  object-fit: contain;
+  max-height: 300px;
 }
